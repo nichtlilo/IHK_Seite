@@ -1,0 +1,286 @@
+@import url("05_projekt-biografienatelier/fonts/Raleway/stylesheet.css");
+@import url("05_projekt-biografienatelier/fonts/Crete_Round/stylesheet.css");
+@import url("05_projekt-biografienatelier/fonts/fontawesome/css/all.css");
+*{
+	box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+#mainheader {
+    height: 100px;
+}
+
+header#mainheader{
+    padding: 16px 48px;
+    background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#logo img{
+	height: 36px;
+    margin-right: 8px;
+}
+
+#logo{
+	display: flex;
+	align-items: center;
+}
+
+#unternehmen{
+    font-family: 'Raleway';
+    font-weight: 300;
+}
+
+#name{
+    font-family: 'Raleway';
+    font-weight: 100;
+}
+#mainnav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	
+}
+
+.arbeittext {
+    color: #696969;
+}
+
+.projekttext {
+    color: #696969;
+}
+
+#mainnav a {
+	text-decoration: none;
+	padding: 0px 18px;
+	border-right: 1px solid #696969;
+	transition: 0.4s all ease-in-out;
+    font-family: 'Raleway';
+    font-weight: 600;
+    letter-spacing: .15rem;
+    font-size: 12px;
+}
+
+#mainnav a:hover {
+	color: #E5AE47;
+}
+
+#mainnav li:last-of-type a {
+    border: none;
+}
+
+.container .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.adresse {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #E5AE47;
+}
+.telefon {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #E5AE47;
+}
+.email {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #E5AE47;
+}
+
+.info-div {
+    display: flex;
+}
+
+.container {
+    padding: 50px 0 0;
+}
+
+.absatz {
+    margin-left: 2rem;
+}
+
+.absatz h5 {
+    font-family: 'Raleway';
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: none;
+    color: #575757;
+    padding: 1rem 0;
+}
+
+.absatz p {
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-weight: 400;
+    color: #8d8d8d;
+}
+
+
+form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    grid-gap: 20px;
+}
+
+.contactform {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+input {
+    font-family: 'Raleway';
+    border: none;
+}
+
+.vorname {
+    grid-column: 1/2;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 15px;
+    letter-spacing: 1px;
+}
+
+.vorname::placeholder {
+    color: #8D8D8D;
+}
+
+.nachname {
+    grid-column: 2/3;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 15px;
+    letter-spacing: 1px;
+}
+
+.nachname::placeholder {
+    color: #8D8D8D;
+}
+
+[name="email_name"] {
+    grid-column: 1/3;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 15px;
+    letter-spacing: 1px;
+}
+
+.emailinput::placeholder {
+    color: #8D8D8D;
+}
+
+.contactform {
+    color: #393939;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+[name="abschicken"] {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.textarea {
+    grid-column: 1/3;
+    height: 200px;
+    resize: none;
+    border: none;
+    border: 1px solid #fff;
+    padding: 15px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.textarea::placeholder {
+    color: #9C9C9C;
+}
+
+.textarea:focus {
+    border: 1px solid #E5AE47;
+    outline: none;
+}
+
+input:focus {
+    outline:  none;
+    border: 1px solid #E5AE47;
+}
+
+.emailinput:focus {
+    border: 1px solid #E5AE47;
+    outline: none;
+}
+
+.abschicken {
+    width: 140px;
+    height: 40px;
+    background-color: #E5AE47;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+
+.abschicken:hover {
+    color: #E5AE47;
+    background-color: #F5F5F5;
+    border: 2px solid #E5AE47;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.footer .leftfootertext p {
+    font-family: 'Raleway';
+    font-size: 13px;
+    padding: 0 0 0 50px;
+    color: #393939;
+}
+
+.footernav ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.footernav ul li a {
+    text-decoration: none;
+    color: #393939;
+    font-family: 'Raleway';
+    font-size: 13px;
+}
+
+.footernav ul {
+    padding-right: 50px;
+}

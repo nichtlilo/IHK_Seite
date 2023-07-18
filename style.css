@@ -1,0 +1,1095 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Landing Page */
+
+.inner_main_nav {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.inner_main_nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.inner_main_nav ul li {
+    float: none;
+    display: inline-block;
+}
+
+.inner_main_nav ul li:nth-child(1) {
+    float: left;
+    margin-left: 200px;
+}
+
+.inner_main_nav ul li:nth-child(2) {
+    float: left;
+    margin-left: 200px;
+}
+
+.inner_main_nav ul li:nth-child(3) {
+    margin-right: 200px;
+}
+
+.inner_main_nav ul li:nth-child(4) {
+    margin-right: 200px;
+}
+
+.inner_main_nav ul li a {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px 10px;
+    display: block;
+}
+
+.homecolor {
+    color: #CA0D30;
+    text-decoration: underline;
+}
+
+.veranstaltung {
+    text-decoration: none;
+    color: #151515;
+}
+
+.anmeldung {
+    text-decoration: none;
+    color: #151515;
+}
+
+.kontakt {
+    text-decoration: none;
+    color: #151515;
+}
+
+#main_nav {
+    width: 100%;
+    position: relative;
+}
+
+.logo img {
+    width: 5%;
+    position: absolute;
+    left: 47%;
+}
+
+
+.sec1 {
+    min-height: 90vh
+}
+
+.lph1 {
+    position: absolute;
+    width: 540px;
+    height: 82px;
+    left: 161px;
+    top: 420px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 84px;
+    color: #CA0D30;
+}
+
+.firsttext {
+    position: absolute;
+    width: 540px;
+    height: 82px;
+    left: 161px;
+    top: 512px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #151515;
+}
+
+.button {
+    position: absolute;
+    width: 212px;
+    height: 43px;
+    left: 161px;
+    top: 614px;
+    background-color:#151515;
+	border-radius:42px;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+	padding: 11px 18px;
+	text-decoration:none;
+}
+
+.secondtext {
+    position: absolute;
+    width: 480px;
+    height: 90px;
+    left: 161px;
+    top: 682px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.kartenbild {
+    position: absolute;
+    width: 537px;
+    height: 359px;
+    left: 801.81px;
+    top: 255px;
+    transform: rotate(5.88deg);
+    z-index: 2;
+}
+
+.arrow {
+    position: absolute;
+    left: 319px;
+    top: 632px;
+    z-index: 99;
+}
+
+.triangle {
+    position: absolute;
+    left: 840px;
+    top: 300px;
+    z-index: 1;
+}
+
+
+/* Content Site 1  */
+
+.sec2 {
+    min-height: 250vh;
+}
+
+.contenttext {
+    position: absolute;
+    width: 875px;
+    height: 67px;
+    left: 161px;
+    top: 1464px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 84px;
+    color: #CA0D30;
+}
+
+.thridtext {
+    position: absolute;
+    width: 421px;
+    height: 80px;
+    left: 161px;
+    top: 1556px;  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #151515;
+}
+
+.firstlongtext {
+    position: absolute;
+    width: 503px;
+    height: 353px;
+    left: 161px;
+    top: 1725px;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 32px;
+    color: #151515;
+}
+
+.secondlongtext {
+    position: absolute;
+    width: 503px;
+    height: 353px;
+    left: 724px;
+    top: 2177px;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.longtextpic1 {
+    position: absolute;
+    width: 529px;
+    height: 353px;
+    left: 724px;
+    top: 1730px;    
+}
+
+.longtextpic2 {
+    position: absolute;
+    width: 529px;
+    height: 353px;
+    left: 161px;
+    top: 2188px;
+}
+
+
+/* Content Site 2 */
+
+.sec3 {
+    min-height: 150vh;
+}
+
+.contenth1 {
+    position: absolute;
+    width: 585px;
+    height: 67px;
+    left: 161px;
+    top: 2649px;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 84px;
+    color: #CA0D30;
+}
+
+.content3text {
+    position: absolute;
+    width: 463px;
+    height: 80px;
+    left: 161px;
+    top: 2741px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.content3text1 {
+    position: absolute;
+    width: 553px;
+    height: 56px;
+    left: 161px;
+    top: 2846px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    color: #CA0D30;
+}
+
+.content3text2 {
+    position: absolute;
+    width: 365px;
+    height: 56px;
+    left: 724px;
+    top: 2846px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.check1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 161px;
+    top: 3020px;
+}
+
+.checktext1 {
+    position: absolute;
+    width: 956px;
+    height: 38px;
+    left: 237px;
+    top: 3032px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.check2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 161px;
+    top: 3120px;
+}
+
+.checktext2 {
+    position: absolute;
+    width: 956px;
+    height: 38px;
+    left: 237px;
+    top: 3132px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.check3 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 161px;
+    top: 3220px;
+}
+
+.checktext3 {
+    position: absolute;
+    width: 956px;
+    height: 38px;
+    left: 237px;
+    top: 3232px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.check4 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 161px;
+    top: 3320px;
+}
+
+.checktext4 {
+    position: absolute;
+    width: 956px;
+    height: 38px;
+    left: 237px;
+    top: 3332px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.check5 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 161px;
+    top: 3420px;
+}
+
+.checktext5 {
+    position: absolute;
+    width: 956px;
+    height: 38px;
+    left: 237px;
+    top: 3432px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.content3img {
+    position: absolute;
+    width: 530px;
+    height: 353px;
+    left: 161px;
+    top: 3600px;
+}
+
+.content3_img_text {
+    position: absolute;
+    width: 503px;
+    height: 160px;
+    left: 720px;
+    top: 3595px;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.content3_img_text_cta {
+    position: absolute;
+    width: 503px;
+    height: 32px;
+    left: 720px;
+    top: 3777px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 32px;
+    color: #CA0D30;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Content Site 3 + Formular */
+
+.sec4 {
+    min-height: 100vh;
+}
+
+.sec4h1 {
+    position: absolute;
+    width: 585px;
+    height: 67px;
+    left: 161px;
+    top: 4080px;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 84px;
+    color: #CA0D30;
+}
+
+.sec4undertext {
+    position: absolute;
+    width: 929px;
+    height: 120px;
+    left: 161px;
+    top: 4172px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.uhrzeit {
+    position: absolute;
+    width: 107px;
+    height: 42px;
+    left: 901px;
+    top: 4256px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #CA0D30;
+}
+
+
+/* Formular */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.sec4 {
+    min-height: 100vh;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    grid-gap: 20px;
+}
+
+.contactform {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+input {
+    font-family: 'Raleway';
+    border: none;
+    background-color: #D9D9D9;
+    padding-left: 10px;
+}
+
+select {
+    padding-left: 10px;
+}
+
+.vorname {
+    grid-column: 1/2;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    width: 424.38px;
+    height: 66.31px;
+    left: 247px;
+    top: 4502.46px;
+}
+
+.vorname::placeholder {
+    color: #8D8D8D;
+}
+
+.nachname {
+    grid-column: 2/3;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    width: 424.38px;
+    height: 66.31px;
+    left: 711.17px;
+    top: 4502.46px;
+}
+
+.nachname::placeholder {
+    color: #8D8D8D;
+}
+
+[name="adress_name"] {
+    grid-column: 1/3;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    width: 888.55px;
+    height: 66.31px;
+    left: 247px;
+    top: 4660.28px;
+}
+
+.emailinput::placeholder {
+    color: #8D8D8D;
+}
+
+.ort {
+    grid-column: 1/3;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    width: 888.55px;
+    height: 66.31px;
+    left: 247px;
+    top: 4818.09px;
+}
+
+.email {
+    grid-column: 1/3;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    width: 888.55px;
+    height: 66.31px;
+    left: 247px;
+    top: 4975.91px;
+}
+
+.telefon {
+    grid-column: 1/3;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    width: 888.55px;
+    height: 66.31px;
+    left: 247px;
+    top: 5133.73px;
+}
+
+#werkommt {
+    border: 1px solid #fff;
+    position: absolute;
+    background-color: #D9D9D9;
+    position: absolute;
+    width: 368px;
+    height: 67px;
+    left: 247px;
+    top: 5372px;
+}
+
+.alterinput {
+    position: absolute;
+    width: 222px;
+    height: 67px;
+    left: 655px;
+    top: 5372px;
+}
+
+.alterinput::placeholder {
+    padding-left: 10px;
+}
+
+.personenNR {
+    position: absolute;
+    width: 222px;
+    height: 67px;
+    left: 914px;
+    top: 5372px;
+}
+
+.personenNR::placeholder {
+    padding-left: 10px;
+}
+
+.kinderNR05 {
+    position: absolute;
+    width: 368px;
+    height: 67px;
+    left: 247px;
+    top: 5530px;    
+}
+
+.kinderNR05::placeholder {
+    padding-left: 10px;
+}
+
+.kinderNR613 {
+    position: absolute;
+    width: 368px;
+    height: 67px;
+    left: 768px;
+    top: 5530px;    
+}
+
+.kinderNR613::placeholder {
+    padding-left: 10px;
+}
+
+.kinderNR1417 {
+    position: absolute;
+    width: 368px;
+    height: 67px;
+    left: 247px;
+    top: 5700px;
+}
+
+.kinderNR1417::placeholder {
+    padding-left: 10px;
+}
+
+.erwachsenenNR {
+    position: absolute;
+    width: 368px;
+    height: 67px;
+    left: 768px;
+    top: 5700px;
+}
+
+.erwachsenenNR::placeholder {
+    padding-left: 10px;
+}
+
+.skatturnier {
+    position: absolute;
+    width: 368px;
+    height: 67px;
+    left: 247px;
+    top: 5858px;
+}
+
+.skatturnier::placeholder {
+    padding-left: 10px;
+}
+
+.quartett {
+    position: absolute;
+    width: 368px;
+    height: 67px;
+    left: 768px;
+    top: 5858px;
+}
+
+.quartett::placeholder {
+    width: 368px;
+    height: 67px;
+}
+
+.workshop {
+    position: absolute;
+    width: 368px;
+    height: 67px;
+    left: 247px;
+    top: 5999px;
+}
+
+.workshop::placeholder {
+    padding-left: 10px;
+}
+
+.inputtext1 {
+    position: absolute;
+    width: 95.49px;
+    height: 25.2px;
+    left: 247px;
+    top: 4464px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.inputtext2 {
+    position: absolute;
+    width: 66.31px;
+    height: 25.2px;
+    left: 709.84px;
+    top: 4464px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.inputtext3 {
+    position: absolute;
+    width: 248.37px;
+    height: 25.2px;
+    left: 247px;
+    top: 4621.82px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.inputtext4 {
+    position: absolute;
+    width: 123.52px;
+    height: 25.2px;
+    left: 247px;
+    top: 4779.63px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.inputtext5 {
+    position: absolute;
+    width: 123.52px;
+    height: 25.2px;
+    left: 247px;
+    top: 4937.45px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.inputtext6 {
+    position: absolute;
+    width: 888.55px;
+    height: 25.2px;
+    left: 247px;
+    top: 5095.27px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.pflichtfeld {
+    position: absolute;
+    width: 125.99px;
+    height: 25.2px;
+    left: 247px;
+    top: 5243.8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #CA0D30;
+}
+
+.inputnumbertext1 {
+    position: absolute;
+    width: 149px;
+    height: 19px;
+    left: 247px;
+    top: 5334px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;    
+}
+
+.inputnumbertext2 {
+    position: absolute;
+    width: 35px;
+    height: 19px;
+    left: 655px;
+    top: 5334px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.inputnumbertext3 {
+    position: absolute;
+    width: 149px;
+    height: 19px;
+    left: 914px;
+    top: 5334px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.inputnumbertext4 {
+    position: absolute;
+    width: 300px;
+    height: 19px;
+    left: 247px;
+    top: 5492px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.inputnumbertext5 {
+    position: absolute;
+    width: 300px;
+    height: 19px;
+    left: 766px;
+    top: 5492px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.inputnumbertext6 {
+    position: absolute;
+    width: 299px;
+    height: 19px;
+    left: 247px;
+    top: 5662px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000; 
+}
+
+.inputnumbertext7 {
+    position: absolute;
+    width: 177px;
+    height: 19px;
+    left: 768px;
+    top: 5662px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.inputnumbertext8 {
+    position: absolute;
+    width: 250px;
+    height: 19px;
+    left: 247px;
+    top: 5820px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.inputnumbertext9 {
+    position: absolute;
+    width: 240px;
+    height: 19px;
+    left: 768px;
+    top: 5820px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.inputnumbertext10 {
+    position: absolute;
+    width: 244px;
+    height: 19px;
+    left: 247px;
+    top: 5961px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.anmeldeschluss {
+    position: absolute;
+    width: 256px;
+    height: 100%;
+    left: 768px;
+    top: 6005px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    color: #CA0D30;
+}
+
+/* Contact Area */
+
+.contactsec {
+    min-height: 120vh;
+}
+
+.einladung {
+    position: absolute;
+    width: 559px;
+    height: 126px;
+    left: 161px;
+    top: 6181px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+    color: #CA0D30;
+}
+
+.anreise {
+    position: absolute;
+    width: 256px;
+    height: 42px;
+    left: 768px;
+    top: 6181px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+    color: #151515;
+}
+
+.anreisetext {
+    position: absolute;
+    width: 212px;
+    height: 66px;
+    left: 768px;
+    top: 6228px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.namecontact {
+    position: absolute;
+    width: 425px;
+    height: 67px;
+    left: 276px;
+    top: 6605px;
+    background: #D9D9D9;
+}
+
+.namecontact::placeholder {
+    font-family: "Roboto";
+}
+
+.namecontactlabel {
+    position: absolute;
+    width: 96px;
+    height: 26px;
+    left: 276px;
+    top: 6567px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.emailcontact {
+    position: absolute;
+    width: 425px;
+    height: 67px;
+    left: 741px;
+    top: 6605px;
+    background: #D9D9D9;
+}
+
+.emailcontact::placeholder {
+    font-family: "Roboto";
+}
+
+.emailcontactlabel {
+    position: absolute;
+    width: 96px;
+    height: 26px;
+    left: 741px;
+    top: 6567px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+#textareacontact {
+    position: absolute;
+    width: 889px;
+    height: 245px;
+    left: 276px;
+    top: 6715px;
+    background: #D9D9D9;
+    resize: none;
+    border: none;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.contactbutton {
+    position: absolute;
+    width: 205px;
+    height: 52px;
+    left: 276px;
+    top: 7000px;
+    border: none;
+    background: #D9D9D9;
+    color: #000000;
+    font-weight: 500;
+}
+
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 214px;
+    left: 0px;
+    top: 7130px; 
+    background: #151515;
+}
+
+.impressum {
+    position: absolute;
+    width: 102px;
+    height: 23px;
+    left: 44px;
+    top: 7166px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    color: #B4B4B4;
+}
+
+.impressumtext {
+    position: absolute;
+    width: 530px;
+    height: 76px;
+    left: 44px;
+    top: 7199px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B4B4B4;
+}
+
+.footersec {
+    min-height: 20vh;
+
+}
